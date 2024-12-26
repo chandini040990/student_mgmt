@@ -10,7 +10,7 @@ function StudentForm() {
         e.preventDefault();
         const student = { name, age, course };
         try {
-            const res = await fetch("http://localhost:5001/api/students", {
+            const res = await fetch("https://student-mgmt.onrender.com/api/students", {
                 method: "POST",
                 headers: {
                     "Content-Type": "application/json",
