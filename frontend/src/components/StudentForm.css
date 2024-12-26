@@ -1,0 +1,25 @@
+.student-form {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 2px solid black;
+    border-radius: 10px;
+    margin-top: 25px;
+}
+
+.student-form input {
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+.student-form button {
+    cursor: pointer;
+    background-color: sandybrown;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+}
